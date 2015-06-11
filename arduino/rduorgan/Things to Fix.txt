@@ -1,0 +1,25 @@
+---- OPEN ----
+
+MCP pin 1 FET doesn't work.  Need to replace it or nix Aux1 and shift smoke valve function to that pin.
+
+Heater duty cycle not fully enforced if smoke generator repeatedly stopped & started.
+
+Valve 13 was being intermittent - the problem is in the valve block, not my h/w or s/w, but should still be looked at.
+
+---- Fixed 6/10/15 ----
+
+playSpeaker() setting frequency incorrectly.
+
+---- Fixed 5/8/15 ----
+
+
+Make default servo mapping 1000 - 2000
+
+
+---- Fixed 5/5/15 ----
+
+
+Serial and servos fight w/each other on smoke & bell (servo in neutral position immediately cancels serial cmd)
+
+Occasional spurious smoke & bell servo cmds when transmitter off
+
